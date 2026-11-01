@@ -1,0 +1,8 @@
+[project]
+name = "pythia-nhs-synthetic"
+version = "0.1.0"
+requires-python = ">=3.12"
+dependencies = [
+    "dbt-polars[s3]>=0.5.0",
+    "huggingface-hub>=2.4.0",
+]
